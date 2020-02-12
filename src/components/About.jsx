@@ -1,6 +1,5 @@
 import React from "react";
 import "../index.css";
-import Foot from "./Foot";
 const About = () => {
   return (
     <div>
