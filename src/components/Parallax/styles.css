@@ -1,0 +1,249 @@
+.main {
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+.card1,
+.card2 {
+  position: absolute;
+  border-radius: 50px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  will-change: transform;
+  display: block;
+}
+
+.card1 {
+  width: 45vw;
+  height: 20vw;
+  padding: 0 auto;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.card2 {
+  position: absolute;
+  top: 48%;
+  left: 7%;
+  width: 5ch;
+  height: 5ch;
+  background-image: url("./imgs/code.png");
+  background-size: 75%;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.name {
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 25%;
+  font-weight: 600;
+}
+.first {
+  margin-top: 10%;
+}
+.symbol {
+  display: none;
+  color: white;
+}
+@media only screen and (max-width: 1700px) {
+  .card1 {
+    font-size: 1.8rem;
+  }
+  .card2 {
+    top: 45%;
+  }
+}
+
+@media only screen and (max-width: 1630px) {
+  .card1 {
+    font-size: 1.7rem;
+  }
+  .card2 {
+    top: 43%;
+  }
+}
+
+@media only screen and (max-width: 1562px) {
+  .card1 {
+    font-size: 1.7rem;
+  }
+  .card2 {
+    top: 42.5%;
+  }
+}
+@media only screen and (max-width: 1490px) {
+  .card2 {
+    top: 42%;
+  }
+}
+@media only screen and (max-width: 1490px) {
+  .card1 {
+    font-size: 1.6rem;
+  }
+  .card2 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1388px) {
+  .card1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 1301px) {
+  .card1 {
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .card1 {
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (max-width: 1215px) {
+  .card1 {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 1130px) {
+  .card1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .card1 {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .card1 {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 890px) {
+  .card1 {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 890px) {
+  .card1 {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 693px) {
+  .card1 {
+    font-size: 0.8rem;
+    width: 60%;
+    left: 0%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .card1 {
+    font-size: 0.8rem;
+    width: 70%;
+    height: 30%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .card1 {
+    font-size: 0.8rem;
+    width: 75%;
+  }
+  .name {
+    margin-left: 9%;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .card1 {
+    font-size: 0.8rem;
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .card1 {
+    font-size: 0.8rem;
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .card1 {
+    font-size: 0.8rem;
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .card1 {
+    font-size: 0.8rem;
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .card1 {
+    font-size: 0.8rem;
+    width: 105%;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .card1 {
+    font-size: 0.8rem;
+    width: 110%;
+  }
+}
+
+@media only screen and (max-width: 285px) {
+  .card1 {
+    font-size: 0.8rem;
+    width: 115%;
+  }
+}
+
+@media only screen and (max-width: 275px) {
+  .card1 {
+    font-size: 0.8rem;
+    width: 120%;
+  }
+}
+@media only screen and (max-width: 245px) {
+  .card1 {
+    font-size: 0.8rem;
+    width: 130%;
+  }
+}
+@media only screen and (max-width: 225px) {
+  .card1 {
+    font-size: 0.8rem;
+    width: 135%;
+    border: none;
+  }
+}
+@media only screen and (max-width: 217px) {
+  .card1 {
+    font-size: 0.8rem;
+    width: 140%;
+  }
+}
+@media only screen and (max-width: 208px) {
+  .card1 {
+    font-size: 0.8rem;
+    width: 150%;
+  }
+}
+@media only screen and (max-width: 195px) {
+  .card1 {
+    font-size: 0.8rem;
+    width: 155%;
+    left: auto;
+    right: auto;
+  }
+}
